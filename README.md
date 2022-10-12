@@ -65,6 +65,11 @@ Downloading dependencies:
   $ yarn dev
 ```
 
+## Other Docs
+- https://www.radix-ui.com/docs/
+
+- Storybook command: npx sb init --builder @storybook/builder-vite
+
 <p align=center> 
   <h6 align=center>💙 Made by 💙</h6> 
   <h2 align=center>
