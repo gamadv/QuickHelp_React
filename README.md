@@ -25,7 +25,8 @@
 
 # :notebook: About
 
-Template Writed on Vite JS with Typescript
+Template Writed on Vite JS with Typescript <br>
+Components on own [Storybook](https://gamadv.github.io/ReactQuickHelp/)
 
 # :hammer: Technologies
 
@@ -35,6 +36,7 @@ Template Writed on Vite JS with Typescript
 - [x] <b>[Typescript](https://www.typescriptlang.org/):</b> <i>It's written in TypeScript</i>
 - [x] <b>[Vite Js](https://vitejs.dev/):</b> <i>Project creation tool </i>
 - [x] <b>[Axios](https://www.npmjs.com/package/axios):</b> <i>Promise based HTTP client for the browser and node.js </i>
+- [x] <b>[Radix UI](https://www.radix-ui.com/docs/):</b> <i> UI Helper </i>
 
 # :black_nib: Getting Started
 
@@ -65,10 +67,6 @@ Downloading dependencies:
   $ yarn dev
 ```
 
-## Other Docs
-- https://www.radix-ui.com/docs/
-
-- Storybook command: npx sb init --builder @storybook/builder-vite
 
 <p align=center> 
   <h6 align=center>💙 Made by 💙</h6> 
