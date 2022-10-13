@@ -6,17 +6,27 @@ export type TTextprops = {
   size?: "sm" | "md" | "lg";
   asChild?: boolean;
   children: ReactNode;
+  className?: string;
 };
 
-export function Text({ children, size = "md", asChild }: TTextprops) {
+export function Text({
+  children,
+  size = "md",
+  asChild,
+  className,
+}: TTextprops) {
   const Component = asChild ? Slot : "span";
   return (
     <Component
-      className={clsx("text-gray-500", {
-        "text-xs": size === "sm",
-        "text-sm": size === "md",
-        "text-lg": size === "lg",
-      })}
+      className={clsx(
+        "text-gray-500",
+        {
+          "text-xs": size === "sm",
+          "text-sm": size === "md",
+          "text-lg": size === "lg",
+        },
+        className
+      )}
     >
       {children}
     </Component>
